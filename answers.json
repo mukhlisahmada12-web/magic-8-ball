@@ -1,0 +1,24 @@
+{
+  "answers": [
+    { "text": "It is certain", "type": "yes" },
+    { "text": "It is decidedly so", "type": "yes" },
+    { "text": "Without a doubt", "type": "yes" },
+    { "text": "Yes, definitely", "type": "yes" },
+    { "text": "You may rely on it", "type": "yes" },
+    { "text": "As I see it, yes", "type": "yes" },
+    { "text": "Most likely", "type": "yes" },
+    { "text": "Outlook good", "type": "yes" },
+    { "text": "Yes", "type": "yes" },
+    { "text": "Signs point to yes", "type": "yes" },
+    { "text": "Reply hazy, try again", "type": "maybe" },
+    { "text": "Ask again later", "type": "maybe" },
+    { "text": "Better not tell you now", "type": "maybe" },
+    { "text": "Cannot predict now", "type": "maybe" },
+    { "text": "Concentrate and ask again", "type": "maybe" },
+    { "text": "Don’t count on it", "type": "no" },
+    { "text": "My reply is no", "type": "no" },
+    { "text": "My sources say no", "type": "no" },
+    { "text": "Outlook not so good", "type": "no" },
+    { "text": "Very doubtful", "type": "no" }
+  ]
+}

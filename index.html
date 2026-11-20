@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Magic 8 Ball</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Magic 8 Ball</h1>
+<p class="sub">Think of a yes-or-no question, then shake the ball.</p>
+
+<div class="ask">
+  <input id="q" type="text" maxlength="120" placeholder="Will it rain on my picnic?" aria-label="Your question">
+  <button id="go" type="button">Shake</button>
+</div>
+
+<div class="stage">
+  <button class="ball" id="ball" type="button" aria-label="Shake the Magic 8 Ball">
+    <div class="window">
+      <div class="eight" aria-hidden="true">8</div>
+      <div class="die"><span id="answer"></span></div>
+    </div>
+  </button>
+</div>
+
+<p class="question" id="asked"></p>
+<p class="hint" id="hint" role="status" aria-live="polite">Click the ball or press Enter.</p>
+
+<section class="history" aria-label="Past answers">
+  <h2>Your last answers</h2>
+  <ol id="list"></ol>
+  <p class="empty" id="empty">Nothing yet. Ask the ball something.</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
